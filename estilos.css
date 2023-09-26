@@ -1,0 +1,321 @@
+body {
+    background-color:#F5DA81;
+    background-image: url(imagenes/hideout.svg);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+#boxeador {
+    width: 960px;
+    height: 1900px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 960px;
+    height: 100px;
+    background-color: #f50;
+    text-align: center;
+}
+#promotora {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+#promotora li a {
+    text-decoration: none;
+    border: solid 1px #000;
+    margin-right: 50px;
+    border-top-left-radius: 30%;
+}
+#promotora li {
+    list-style-type: none;
+    display: inline-block;
+}
+#promotora li a:hover {
+    background-color: black;
+}
+#pro-derecho {
+    width: 560px;
+    height: 1690px;
+    float: left;
+}
+.mejor {
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.3); ;
+    text-transform: uppercase;
+}
+.guantes {
+    text-align: center;
+}
+#eleider {
+    font-family:'Noto Sans Tai Le', sans-serif;
+}
+#jab {
+    font-size: 16px;
+    background-color: honeydew;
+}
+#posmodoro {
+    text-transform: uppercase;
+    font-size: 21px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+#pro-izquierdo {
+    width: 400px;
+    height: 1000px;
+    float: right ;
+}
+.sugar {
+    width: 960px;
+    height: 120px;
+    clear: both;
+    text-align: center;
+    border-radius: 5%;
+}
+#periodo {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#periodo li {
+    display: inline-block;
+}
+#periodo li a {
+    width: 200px;
+    height: 50px;
+    font-size: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 50px;
+    display: inline-block;
+}
+#periodo li a:hover {
+    color: #1f1817;
+}
+#selecciones {
+    width: 980px;
+    height: 900px;
+    background-color:rgb(240, 248, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+.pugil {
+    width: 980px;
+    height: 150px;
+    background-color: crimson;
+}
+.Informacion {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.veredicto {
+    text-align: right;
+    margin-bottom: 5px;
+    display: block;
+    list-style-type: none;
+    margin: 5px;
+}
+.veredicto li a {
+    text-decoration: none;
+}
+#gazas {
+    width: 580px;
+    height: 630px;
+    float: left;
+}
+#inportante {
+    text-align: center;
+}
+#vendajes {
+    width: 400px;
+    height: 630px;
+    position: relative;
+    float: right;
+}
+#volumen {
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.3);;
+}
+#bascula {
+    font-family: font-family: 'Roboto Condensed', sans-serif;;
+}
+#bucal {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#clasico {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+#cloroformo {
+    width: 980px;
+    height: 120px;
+    text-align: center;
+    clear: both;
+    background-color: aquamarine;
+}
+.centrado {
+    font-size: 12px;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    display: block;
+}
+.centrado li {
+    margin-right: 155px;
+    display: inline-block;
+}
+.centrado a {
+    text-decoration: none;
+}
+.centrado a:hover {
+    color:#4d0f1b;
+}
+@media handhled, screen and (min-width: 600px) and (max-width: 1023px) {
+    #boxeador {
+        width: 580px;
+        height: auto;
+    }
+    header {
+        width: 580px;
+        height: 100px;
+    }
+    #promotora li a {
+        border: none;
+        margin-right: 5px;
+        color: #000;
+    }
+    
+    #pro-derecho {
+        width: 580px;
+        height: auto;
+        float: none;
+    }
+    #pro-izquierdo {
+        width: 580px;
+        height: auto;
+        float: none ;
+    }
+    .sugar {
+        width: 580px;
+        height: auto;
+    }
+    #periodo li a {
+        width: 100px;
+        height: auto;
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin: 5px;
+        display: inline-block;
+    }
+    #selecciones {
+        width: 580px;
+        height: auto;
+        background-color:rgb(240, 248, 255);
+    }
+    .pugil {
+        width: 580px;
+        height: auto;
+        background-color: crimson;
+    }
+    #gazas {
+        width: 580px;
+        height: auto;
+        float: none;
+    }
+    #vendajes {
+        width: 580px;
+        height: auto;
+        float: none;
+    }
+    #cloroformo {
+        width: 580px;
+        height: 80px;
+        text-align: center;
+        clear: both;
+        background-color: aquamarine;
+    }
+}
+@media handhled, screen and (max-width: 599px) {
+    #boxeador {
+        width: 90%;
+        height: auto;
+    }
+    header {
+        width: 90%;
+        height: auto;
+    }
+    #promotora {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+    #promotora li a {
+        text-decoration: none;
+        border: none;
+        margin-right: 10px;
+        color: #000;
+    }
+    #promotora li {
+        list-style-type: none;
+        display: inline-block;
+    }
+    #pro-derecho {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    #pro-izquierdo {
+        width: 90%;
+        height: auto;
+        float: none ;
+    }
+    .sugar {
+        width: 100%;
+        height: 80px;
+    }
+    #periodo li a {
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+        text-decoration: none;
+        margin-bottom: 5px;
+        display: block;
+        line-height: 50px;
+        display: inline-block;
+        background-color: #1ad5;
+    }
+    #selecciones {
+        width: 90%;
+        height: auto;
+    }
+    .pugil {
+        width: 90%;
+        height: auto;
+    }
+    #gazas {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    #vendajes {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    #cloroformo {
+        width: 100%;
+        height: 80px;
+        clear: both;
+        background-color: aquamarine;
+    }
+    .centrado {
+        float: none;
+        display: inline-block;
+    }
+    .centrado li {
+        margin-right: 25px;
+        display: inline-block;
+
+    }
+}
